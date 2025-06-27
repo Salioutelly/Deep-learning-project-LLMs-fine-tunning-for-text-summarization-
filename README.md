@@ -40,7 +40,7 @@ The following metrics were used to evaluate model performance on the dialogue su
 
 ## 🛠️ Tools & Libraries
 
-- Python 3.x
+- Python 3.12
 - HuggingFace Transformers
 - PyTorch / TensorFlow
 - ROUGE scoring (via `evaluate` or `rouge-score`)
@@ -52,4 +52,12 @@ The following metrics were used to evaluate model performance on the dialogue su
 - **Train/Validation split**: Custom split or provided splits
 - **Fine-tuning**: BART and T5 were fine-tuned on the SAMSum dataset
 - **Hardware used**: GPU-enabled training environment (e.g., Google Colab or local CUDA setup)
+
+## ✅ Conclusion
+
+This project demonstrates the effectiveness of transformer-based models like **BART** and **T5** in handling the complex task of dialogue summarization using the **SAMSum** dataset. Through fine-tuning and metric evaluation, we observe strong performance in generating coherent, concise, and context-aware summaries of multi-turn conversations.
+
+By leveraging the power of modern NLP architectures and comprehensive evaluation metrics like ROUGE, this work contributes to advancing conversational AI. Future improvements may include exploring longer input contexts, improving factual consistency, and applying models to real-world chat applications.
+
+This project showcases the potential for real-life applications such as summarizing chat transcripts, customer support logs, or meeting discussions.
 
